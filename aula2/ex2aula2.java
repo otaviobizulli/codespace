@@ -1,16 +1,16 @@
-public class ex1aula4
+package aula2;
+import java.rmi.StubNotFoundException;
+
+public class ex2aula2
 {
     public static void main(String[] args)
     {
         int ult = 0;
         int num = 1;
         int va = 0;
-        for (int cont = 0; cont <= 19; cont += 1)
+        for (int cont = 0; cont <= 29; cont += 1)
         {
-            if (num % 2 == 0)
-                System.out.println(num +" (PAR)");
-            else
-                System.out.println(num +" (IMPAR)");
+            System.out.println(num);
             va = num;
             num = ult;
             ult = va;

@@ -1,3 +1,4 @@
+package aula4;
 import java.util.Scanner;
 
 public class ex4aula4

@@ -1,3 +1,4 @@
+package aula3;
 public class ex3aula3
 {
     public static void main(String[] args)
